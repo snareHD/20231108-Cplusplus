@@ -1,0 +1,9 @@
+#include<iostream>
+#include<string>  --字符串类型的头文件
+using namespace std;
+int main()
+{
+  string arr1="hello world";
+  cout<<arr1<<endl;     
+  return 0;
+}
