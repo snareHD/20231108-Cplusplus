@@ -1,0 +1,21 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<iostream>
+using namespace std;
+double PI = 3.14;
+class yuanzhoulv   //class代表设计一个类，yuanzhoulv是创建的类的名称
+{
+ public:          //权限：--公开权限
+        int m_r;  //属性  --半径
+		double cla()  //行为  --计算圆周率
+		{
+			return 2 * PI * m_r;
+		}
+};
+int main()
+{
+	class yuanzhoulv c1;
+	c1.m_r = 10;
+	cout << "计算半径为10的圆形的圆周率为" << c1.cla() << endl;
+
+	return 0;
+}
