@@ -13,7 +13,7 @@ class yuanzhoulv   //class代表设计一个类，yuanzhoulv是创建的类的�
 };
 int main()
 {
-	class yuanzhoulv c1;
+	class yuanzhoulv c1;  //实例化（通过一个类 创建一个对象的过程）
 	c1.m_r = 10;
 	cout << "计算半径为10的圆形的圆周率为" << c1.cla() << endl;
 
